@@ -1,0 +1,20 @@
+TrustHeart — Data Access Links
+
+The two public ECG datasets used in the study, with their canonical access URLs.
+
+1. MIT-BIH Arrhythmia Database
+   URL:      https://physionet.org/content/mitdb/1.0.0/
+   Version:  1.0.0
+   Details:  48 two-channel records, 360 Hz, AAMI five groups (N, S, V, F, Q),
+             about 110,000 annotated beats; inter-patient De Chazal split.
+   License:  Open Data Commons Attribution License v1.0 (see the PhysioNet page).
+
+2. CPSC2018 (China Physiological Signal Challenge 2018)
+   URL:      http://2018.icbeb.org/Challenge.html
+   Version:  2018 release
+   Details:  6,877 twelve-lead recordings, 500 Hz, 6-60 s, nine classes
+             (N, AF, I-AVB, LBBB, RBBB, PAC, PVC, STD, STE); five-fold
+             patient-level cross-validation.
+   License:  CC BY-NC-SA 4.0 (challenge data-use terms on the page above).
+
+Both datasets are public and de-identified. No model weights were released.

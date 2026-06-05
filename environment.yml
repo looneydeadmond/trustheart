@@ -1,0 +1,16 @@
+name: trustheart
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.0.1
+  - numpy>=1.24
+  - scipy>=1.10
+  - scikit-learn>=1.3
+  - pip
+  - pip:
+      - wfdb>=4.1
+      - jsonargparse>=4.27
+      - PyYAML>=6.0
+      - onnx>=1.15

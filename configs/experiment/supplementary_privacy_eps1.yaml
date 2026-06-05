@@ -1,0 +1,35 @@
+experiment:
+  name: supplementary_privacy_eps1
+  model:
+    n_classes: 5
+    channels: [32, 64, 128, 128]
+    kernel: 7
+    attention_heads: 4
+    ladl_components: 2
+    ladl_beta: 0.5
+    use_apba: true
+    use_paam: true
+    use_ladl: true
+  data:
+    source: wfdb
+    root: data/mitdb
+    n_classes: 5
+    sampling_rate: 360.0
+    train_fraction: 0.5
+    seed: 7
+  privacy:
+    enabled: true
+    total_epsilon: 1.0
+    delta: 1.0e-5
+    alpha: 0.5
+    warmup_epochs: 5
+    clip_percentile: 90.0
+    coefficient: 1.0
+  train:
+    epochs: 100
+    batch_size: 256
+    learning_rate: 0.001
+    weight_decay: 0.0001
+    seed: 7
+    device: auto
+    out_dir: runs/supplementary_privacy_eps1

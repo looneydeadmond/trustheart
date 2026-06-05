@@ -1,0 +1,6 @@
+source: wfdb
+root: data/cpsc2018
+n_classes: 9
+sampling_rate: 500.0
+train_fraction: 0.8
+seed: 7

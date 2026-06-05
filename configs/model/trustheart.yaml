@@ -1,0 +1,10 @@
+n_classes: 5
+channels: [32, 64, 128, 128]
+kernel: 7
+attention_heads: 4
+lambda_att: 0.0
+ladl_components: 2
+ladl_beta: 0.5
+use_apba: true
+use_paam: true
+use_ladl: true

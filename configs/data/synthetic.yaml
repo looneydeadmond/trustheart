@@ -1,0 +1,6 @@
+source: synthetic
+n_classes: 5
+per_class: 256
+sampling_rate: 360.0
+train_fraction: 0.7
+seed: 7

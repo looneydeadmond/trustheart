@@ -1,0 +1,6 @@
+source: wfdb
+root: data/mitdb
+n_classes: 5
+sampling_rate: 360.0
+train_fraction: 0.5
+seed: 7
